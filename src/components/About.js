@@ -1,5 +1,6 @@
 import React from "react";
-
+import NavBar from "./NavBar";
+import {image} from "../data/user.js";
 function About() {
   return (
     <div id="about">
@@ -9,3 +10,4 @@ function About() {
     </div>
   );
 }
+export default About;
